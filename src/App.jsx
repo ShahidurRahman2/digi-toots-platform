@@ -423,7 +423,7 @@ function App() {
 
           {/* card2 */}
           <div className="card w-96 bg-[#8A1AF9] shadow-sm">
-            <span className="badge badge-xs badge-warning content-center w-[26%] mx-auto">Most Popular</span>
+            <span className="badge badge-xs badge-warning content-center w-[25%] mx-auto">Most Popular</span>
             <div className="card-body">
 
               <div className="flex justify-between">
@@ -626,11 +626,11 @@ function App() {
           <p className="text-center ">© 2026 Digitools.  {new Date().getFullYear()} - All right reserved    •Privacy Policy           •Terms of Service            •Cookies</p>
         </aside>
       </div>
-   
 
-      
-      </>
-      );
-}                                                                                                                                                                                                              
-  
-export default App;
+
+
+    </>
+  );
+}
+
+export default App; 
