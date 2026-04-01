@@ -290,7 +290,7 @@ function App() {
 
 
 
-      <div className="section5 mt-7 w-[85%] mx-auto mb-12 md:mt-[120px]">
+      <div className="section5 mt-7 w-[85%] mx-auto mb-12 md:mt-[121px]">
         <div className="w-[80%] md:w-[40%] mx-auto">
           <strong className="text-2xl md:text-4xl mb-3">Get Started in 3 Steps</strong>
           <p className="mx-auto">Start using premium digital tools in minutes, not hours.</p>
@@ -630,6 +630,6 @@ function App() {
       
       </>
       );
-}                                                                                                                                                                                            
+}                                                                                                                                                                                              
   
 export default App;
