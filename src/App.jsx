@@ -289,6 +289,7 @@ function App() {
       <ToastContainer position="top-right" />
 
 
+
       <div className="section5 mt-7 w-[85%] mx-auto mb-12 md:mt-[120px]">
         <div className="w-[80%] md:w-[40%] mx-auto">
           <strong className="text-2xl md:text-4xl mb-3">Get Started in 3 Steps</strong>
@@ -366,7 +367,8 @@ function App() {
       </div >
 
 
-      <div className="parent-card w-full mt-[120px]  bg-[#FFFFFF]">
+
+      <div className="parent-card w-full mt-[121px]  bg-[#FFFFFF]">
         <div className="w-[85%] flex flex-col justify-center items-center mx-auto">
           <strong className="text-2xl mb">Simple, Transparent Pricing</strong>
           <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
@@ -529,6 +531,8 @@ function App() {
 
 
 
+
+
       {/*   footer */}
       <div>
         <footer >
@@ -626,6 +630,6 @@ function App() {
       
       </>
       );
-}                                                                                                                                                                                          
+}                                                                                                                                                                                            
   
 export default App;
