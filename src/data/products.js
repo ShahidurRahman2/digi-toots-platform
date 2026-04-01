@@ -1,3 +1,5 @@
+import { ImGift } from "react-icons/im";
+
 const products = [
     {
         id: 1,
@@ -8,7 +10,8 @@ const products = [
         tag: "popular",
         tagType: "popular",
         features: ["100+ templates", "ATS optimization", "PDF export"],
-        icon: "📄"
+        iconImg: "https://i.ibb.co.com/TqPQkhDs/portfolio.png",
+
     },
     {
         id: 2,
@@ -19,7 +22,7 @@ const products = [
         tag: "best seller",
         tagType: "best",
         features: ["Custom domains", "Responsive design", "SEO friendly"],
-        icon: "🌐"
+        iconImg: "https://i.ibb.co.com/TqPQkhDs/portfolio.png",
     },
     {
         id: 3,
@@ -30,7 +33,8 @@ const products = [
         tag: "new",
         tagType: "new",
         features: ["Auto posting", "Analytics dashboard", "Multi-platform"],
-        icon: "📅"
+        iconImg: "https://i.ibb.co.com/JWc1bLFy/social-media.png",
+
     },
     {
         id: 4,
@@ -41,7 +45,9 @@ const products = [
         tag: "popular",
         tagType: "popular",
         features: ["500+ templates", "Icons & vectors", "Editable files"],
-        icon: "🎨"
+        iconImg: "https://i.ibb.co.com/GvGHt8B2/design-tool.png",
+
+
     },
     {
         id: 5,
@@ -52,7 +58,9 @@ const products = [
         tag: "new",
         tagType: "new",
         features: ["Cloud sync", "Tag system", "Search feature"],
-        icon: "💻"
+
+        iconImg: "https://i.ibb.co.com/rKjW1HCj/writing-2327400-1.png",
+
     },
     {
         id: 6,
@@ -63,7 +71,8 @@ const products = [
         tag: "best seller",
         tagType: "best",
         features: ["Video hosting", "Student management", "Payment integration"],
-        icon: "🎓"
+
+        iconImg: "https://i.ibb.co.com/TqPQkhDs/portfolio.png"
     },
     {
         id: 7,
@@ -74,7 +83,8 @@ const products = [
         tag: "popular",
         tagType: "popular",
         features: ["Keyword tracking", "Site audit", "Competitor analysis"],
-        icon: "📈"
+
+        iconImg: "https://i.ibb.co.com/YB2WCVG3/operation.png",
     },
     {
         id: 8,
@@ -85,7 +95,8 @@ const products = [
         tag: "best seller",
         tagType: "best",
         features: ["Email templates", "Automation", "Analytics"],
-        icon: "📧"
+
+        iconImg: 'https://i.ibb.co.com/TqPQkhDs/portfolio.png',
     }
 ];
 
