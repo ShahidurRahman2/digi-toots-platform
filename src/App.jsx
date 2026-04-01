@@ -17,20 +17,20 @@ function App() {
     toast.success("Added to cart ✅");
   };
 
-  // ✅ Remove item
+  //  Remove item
   const handleRemove = (index) => {
     const updatedCart = cart.filter((_, i) => i !== index);
     setCart(updatedCart);
     toast.error("Item removed ❌");
   };
 
-  // ✅ Checkout
+  //  Checkout
   const handleCheckout = () => {
     setCart([]);
     toast.info("Checkout successful 🛒");
   };
 
-  // ✅ Total price
+  //  Total price
   const totalPrice = cart.reduce((total, item) => total + item.price, 0);
 
   return (
@@ -237,7 +237,7 @@ function App() {
         </div>
       )}
 
-      {/* 🔷 Cart */}
+      {/*  Cart */}
       {view === "cart" && (
         <div className="p-6 max-w-2xl mx-auto">
 
@@ -626,6 +626,6 @@ function App() {
       
       </>
       );
-}                                                                                                                                                                                      
+}                                                                                                                                                                                          
   
 export default App;
