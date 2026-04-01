@@ -618,7 +618,7 @@ function App() {
       <div className="final">
         <hr />
         <aside className="mx-auto w-full bg-neutral text-neutral-content">
-          <p className="text-center ">© 2026 Digitools.  {new Date().getFullYear()} - All right reserved Privacy Policy           Terms of Service           Cookies</p>
+          <p className="text-center ">© 2026 Digitools.  {new Date().getFullYear()} - All right reserved    •Privacy Policy           •Terms of Service            •Cookies</p>
         </aside>
       </div>
    
@@ -626,6 +626,6 @@ function App() {
       
       </>
       );
-}                                                                                                                                                                                  
+}                                                                                                                                                                                    
   
 export default App;
