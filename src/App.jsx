@@ -423,8 +423,9 @@ function App() {
 
           {/* card2 */}
           <div className="card w-96 bg-[#8A1AF9] shadow-sm">
+            <span className="badge badge-xs badge-warning content-center w-[25%] mx-auto">Most Popular</span>
             <div className="card-body">
-              <span className="badge badge-xs badge-warning">Most Popular</span>
+
               <div className="flex justify-between">
                 <h2 className="text-3xl font-bold">Pro</h2>
 
@@ -630,6 +631,6 @@ function App() {
       
       </>
       );
-}                                                                                                                                                                                              
+}                                                                                                                                                                                                            
   
 export default App;
