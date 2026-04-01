@@ -38,7 +38,7 @@ function App() {
 
 
 
-      {/* nav bar ar kaj */}
+      {/* nav bar ar kaj  niche liklam*/}
       <div className="section1">
         <div className="w-full bg-base-100 shadow-sm">
 
@@ -626,6 +626,6 @@ function App() {
       
       </>
       );
-}                                                                                                                                                                                    
+}                                                                                                                                                                                      
   
 export default App;
