@@ -544,7 +544,7 @@ function App() {
           </p>
         </aside>
         <nav>
-          <h6 className="footer-title">Services</h6>
+          <h6 className="footer-title">Products</h6>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
@@ -558,14 +558,14 @@ function App() {
           <a className="link link-hover">Press kit</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
+          <h6 className="footer-title">Resource</h6>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
         </nav>
 
         <nav>
-          <h6 className="footer-title">Social</h6>
+          <h6 className="footer-title">Socia</h6>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg
@@ -603,8 +603,10 @@ function App() {
           </div>
         </nav>
       </footer>
+
+      
       </>
       );
-}                                                                                                                
+}                                                                                                                      
   
 export default App;
